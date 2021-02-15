@@ -1,0 +1,187 @@
+/***** BASE STYLES *****/
+body {
+  color: #2b2b2b;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 100%;
+}
+
+.half-width {
+  float: left;
+  width: 50%;
+}
+
+.third-width {
+  float: left;
+  width: 33%;
+}
+
+/***** HEADER *****/
+header {
+   background: url('../img/hero.png');
+   background-size: cover;
+   background-position: center;
+   height: 50em;
+}
+
+header h1 {
+   color: #BBC085;
+   font-family: 'Lora', serif;
+   font-size: 1.8em;
+   font-weight: bold;
+   padding: 2em 0 4em 2em;
+}
+
+nav {
+  float: right;
+  padding: 4.5em 4.5em;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #828282;
+  font-size: 1.2em;
+  padding-left: 5em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+header h2 {
+  clear:both;
+  color: #9B9B9B;
+  font-family: 'Lora', serif;
+  font-size: 4.5em;
+  line-height: 1.25em;
+  padding: 0 0 1.25em 1em;
+  width: auto;
+}
+
+header h2 span {
+  color: #F9CEB7;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+  padding: 5em 0;
+}
+
+#about h2 {
+  font-family: 'Lora', serif;
+  font-size: 2.25em;
+  padding-left: 3em;
+}
+
+#about p {
+  color: #7F7F7F;
+  font-size: 1.25em;
+  font-weight: lighter;
+  line-height: 1.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+#work .full-width {
+  background: #F9CEB7;
+  padding: 7em 0;
+  text-align: center;
+}
+
+#work img {
+  padding-bottom: 1.8em;
+}
+
+#work h3 {
+  color: #2B2B2B;
+  font-size: 1.4em;
+  line-height: 1.25em;
+  margin: 0 auto;
+}
+
+#work p {
+  color: #2B2B2B;
+  font-family: 'Lora', serif;
+  font-size: 1.25em;
+  line-height: 1.5em;
+  padding: 0 1em;
+}
+
+#contact .full-width {
+  background: #EBEBEB
+}
+
+#contact .full-width {
+  padding : 6em 0;
+}
+
+#contact img#contact-img {
+  border: 0.75em solid #FFFFFF;
+  margin-left: 3em;
+  width: 90%;
+}
+
+#contact h2, h3#email-header, #socialmedia-header, #contact ul {
+  margin: 0.5em 0 0.5em 2em;
+}
+
+#contact #envelope {
+  padding: 0 0.7em 0 5em;
+}
+
+#contact h2 {
+  font-family: 'Lora', serif;
+  font-size: 2.25em;
+  line-height: 0.7em;
+}
+
+h3#email-header {
+  font-size: 1.7em;
+  font-weight: 600;
+  line-height: 1em;
+  padding: 0 1em;
+}
+
+#contact #socialmedia-header {
+  font-size: 1.7em;
+  font-weight: bold;
+  line-height: 2em;
+  margin: 0.8em 0 0 2.8em;
+}
+
+#contact a {
+  color: #C49075;
+  font-size: 1.75em;
+  font-weight:bold;
+  text-decoration:none;
+}
+
+#contact ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+#contact ul img {
+  padding-right: 3em;
+}
+
+
+@media print{
+  body{
+  /* This code removes any background color when you print out the website */
+    background:none;
+  }
+}
